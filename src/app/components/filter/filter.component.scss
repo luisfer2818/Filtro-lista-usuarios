@@ -1,22 +1,26 @@
 .filter {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .form {
-    width: 100%;
-    height: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
 
-    &__name { }
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
-    &__date-picker { }
+  &__name {
+  }
 
-    &__status { }
+  &__date-picker {
+  }
 
-    &__button { }
+  &__status {
+  }
+
+  &__button {
+  }
 }

@@ -1,27 +1,27 @@
 .container {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
+/* Organiza as divs filhas verticalmente */
 .left-container {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    /* Organiza as divs filhas verticalmente */
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Preenche todo o espaço disponível */
 .top-div {
-    flex-grow: 1;
-    /* Preenche todo o espaço disponível */
+  flex-grow: 1;
 }
 
+/* Ocupa 80% da altura do seu contêiner pai */
 .main-left-div {
-    height: 80%;
-    /* Ocupa 80% da altura do seu contêiner pai */
+  height: 80%;
 }
 
 .right-div {
-    width: 30%;
-    max-height: 100vh;
+  width: 30%;
+  max-height: 100vh;
 }
